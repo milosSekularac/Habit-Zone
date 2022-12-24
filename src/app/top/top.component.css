@@ -1,0 +1,14 @@
+nav {
+  background-color: rgb(19, 12, 77);
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom-right-radius: 50%;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding-left: 10px;
+}
