@@ -12,3 +12,14 @@ nav a {
   text-decoration: none;
   padding-left: 10px;
 }
+.dropdown-menu {
+  border: none;
+}
+.dropdown {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.dropdown:hover,
+.dropdown:focus {
+  border-color: rgb(6, 6, 97);
+}
