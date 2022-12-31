@@ -6,22 +6,24 @@ import { TopComponent } from './top/top.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HabitComponent } from './habit/habit.component';
 import { FormsModule } from '@angular/forms';
+import { HabitService } from './services/habit.service';
+import { PopupComponent } from './popup/popup.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     TopComponent,
-    TopComponent,
     HabitComponent,
+    PopupComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    FormsModule
+    FormsModule,
   ],
-  providers: [],
+  providers: [HabitService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

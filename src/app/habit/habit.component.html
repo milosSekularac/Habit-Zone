@@ -8,26 +8,33 @@
 </head>
 <body>
   <form (ngSubmit)="submit()">
-    <div class="row">
-      <div class="col-4">
-        <h3>Habits</h3>
-        <input type="text" [(ngModel)]="habits" name="input1">
-        <button type="submit">Submit</button>
-        <h4>{{habits}}</h4>
-      </div>
-      <div class="col-4">
-        <h3>Daily</h3>
-        <input type="text" [(ngModel)]="dalies" name="input2">
-        <button type="submit">Submit</button>
-        <h4>{{dalies}}</h4>
-      </div>
-      <div class="col-4">
-        <h3>To Do</h3>
-        <input type="text" [(ngModel)]="toDo" name="input3">
-        <button type="submit">Submit</button>
-        <h4>{{toDo}}</h4>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <h4>Habits</h4>
+          <input type="text" [(ngModel)]="habits" name="input1">
+          <button type="submit">Submit</button>
+          <h4>{{habits}}</h4>
+          <div class="square"></div>
+        </div>
+        <div class="col-4">
+          <h4>Daily</h4>
+          <input type="text" [(ngModel)]="dalies" name="input2">
+          <button type="submit">Submit</button>
+          <h4>{{dalies}}</h4>
+          <div class="square"></div>
+        </div>
+        <div class="col-4">
+          <h4>To Do</h4>
+          <input type="text" [(ngModel)]="toDo" name="input3">
+          <button type="submit">Submit</button>
+          <h4>{{toDo}}</h4>
+          <div class="square"></div>
+        </div>
       </div>
     </div>
   </form>
+
+
 </body>
 </html>
